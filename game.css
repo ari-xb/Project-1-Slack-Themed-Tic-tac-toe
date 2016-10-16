@@ -1,0 +1,209 @@
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #5c3a58;
+  font-weight: bold;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+button {
+  margin; 0 auto;
+  background: #d6145f;
+  border-radius: 20px;
+  border: solid 0.125em black;
+  transition: background-color 0.5s;
+  -webkit-transition: background-color 0.5s;
+}
+
+button:hover {
+  color: white;
+  background: #3bb18b;
+  border-radius: 20px;
+  border: solid 0.125em grey;
+
+}
+
+#start-reset {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+h1 {
+  font-size: 1em;
+  text-align: center;
+  margin: 0.5em auto;
+}
+
+#turnhud {
+  font-size: 2em;
+  text-align: center;
+  margin: 0.5em auto;
+/*  transition: font 2s, width 2s, height 2s, background-color 2s, transform 2s;
+  -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;*/
+}
+
+#game-wrapper {
+/*  height: 600px;
+  width:600px;
+  clear: both;*/
+}
+
+.board-container {
+  width: 35em;
+  height: 35em;
+  margin: 2em auto;
+  /*for the slack logo rotate -15deg*/
+  transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+}
+/* for highlighting the winning three
+.slideDown {
+}
+
+.slideUp {
+
+}*/
+
+.box {
+  font-size: 6em;
+  text-align: center;
+  width: 20%; /*150px;*/
+  height: 20%; /*150px;*/
+  margin: 0.%;
+  background-color: white;
+  float: left;
+  transition: background-color 0.5s;
+  -webkit-transition: background-color 0.5s;
+/*  position: absolute;*/
+}
+
+.box:hover {
+  background-color: #edecec;
+
+}
+
+.boxwon {
+  background-color: red;
+}
+
+.boxwon:hover {
+  background-color: pink;
+}
+
+footer {
+  margin: 2em;
+  color: lightgrey;
+}
+
+.border-box {
+  width: 20%; /*150px;*/
+  height: 20%; /*150px;*/
+  /*background-color: grey;*/
+  float: left;
+}
+
+#top-row2, #top-row4 {
+  border-radius: 5em 5em 0px 0px;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+#sec-row1, #for-row1 {
+  border-radius: 5em 0em 0px 5em;
+  background-color: red;
+}
+
+#sec-row5, #for-row5 {
+  border-radius: 0px 5em 5em 0px;
+  background-color: red;
+}
+
+#fit-row2, #fit-row4 {
+  border-radius:  0px 0px 5em 5em;
+  background-color: red;
+}
+
+#top-row4, #fit-row4, .box5 {
+  background-color: #dfa11f;
+}
+
+#top-row2, .box3, #fit-row2 {
+  background-color: #3bb18b;
+}
+
+#sec-row1, .box1, #sec-row5 {
+  background-color: #69c1d3;
+}
+
+#for-row1, .box7, #for-row5 {
+  background-color: #d6145f;
+}
+
+.box0 {
+  background-color: #198c78;
+}
+.box2 {
+  background-color: #60801b;
+}
+.box6 {
+  background-color: #340f36;
+}
+.box8 {
+  background-color: #c40d0c;
+}
+
+/*Logo colours :
+#dfa11f yellow
+#60801b yellow blue
+#c40d0c yellow red
+#3bb18b green
+#198c78 green blue
+#340f36 green red
+#69c1d3 blue
+#d6145f red
+#5c3a58 slack text color
+*/
+#top-row1, #top-row3, #top-row5, #thi-row1, #thi-row5, #fit-row1, #fit-row3, #fit-row5 {
+    background-color: white;
+}
+
+/*@media (max-width: 50em) {
+  body {
+    width: 100%;
+  }
+
+  .board-container {
+    width: 40em;
+    height: 40em;
+    background-color: grey;
+    margin: 1em auto;
+    /*for the slack logo rotate -15deg
+    transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);*//*
+
+  .box {
+    font-size: 10em;
+    text-align: center;
+    width: 31%;
+    height: 31%;
+    margin: 1.1%;
+    float: left;
+    transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+  /*  position: absolute;*//*
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  #turnhud {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0.5em auto;
+  }
+}*/
