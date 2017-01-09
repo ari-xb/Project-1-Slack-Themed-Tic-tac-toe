@@ -1,4 +1,4 @@
-# [Tic Tac Toe](https://ari-xb.github.io/Slack-Themed-Tic-tac-toe/)
+# [Slack Themed Tic Tac Toe](https://ari-xb.github.io/Project-1-Slack-Themed-Tic-tac-toe/)
 
 
 | Created using native JavaScript, CSS & HTML. Started with adding the X's and O's on the game board, then how to switch players, also a lot of time was spent on checking the Win/Draw condition and outputting it correctly and finally the board reset method. |
